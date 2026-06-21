@@ -1,0 +1,62 @@
+# Fluid Theme 配置
+# 文档: https://github.com/fluid-dev/hexo-theme-fluid
+
+# 导航栏菜单
+navbar:
+  menu:
+    - { key: 'home', link: '/', icon: 'iconfont icon-home-fill' }
+    - { key: 'archive', link: '/archives/', icon: 'iconfont icon-archive-fill' }
+    - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill' }
+  # 菜单项中文翻译
+  menu_zh-CN:
+    home: 首页
+    archive: 归档
+    about: 关于
+  menu_en:
+    home: Home
+    archive: Archive
+    about: About
+
+# 博客标题（可显示在首页）
+blog_title: "从 CSDN 迁移到 GitHub"
+
+# 主页大图配置
+banner:
+  height: 70
+  text_color: '#fff'
+  # 留空则使用纯色背景,也可以填图片 URL
+  background: ''
+
+# 主题色
+theme_color: '#3F51B5'
+
+# 代码高亮
+highlight:
+  enable: true
+  style: 'github'
+  background: true
+
+# 文章页配置
+post:
+  # 在文章页显示字数统计
+  count: true
+  # 是否开启赞赏
+  reward: false
+
+# 底部配置
+footer:
+  # 展示在底部的社交链接,可自定义
+  social:
+    - { name: 'GitHub', icon: 'iconfont icon-github-fill', link: 'https://github.com/你的用户名' }
+  beian:
+    enable: false
+
+# 友链
+links:
+  enable: true
+  items: []
+
+# 复制版权
+copy:
+  enable: true
+  copyright_length: 30

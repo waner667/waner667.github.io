@@ -1,0 +1,24 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Hexo
+public/
+.deploy_git/
+.hexo/
+db.json
+package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Env
+.env
+.env.local
