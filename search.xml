@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2026/06/21/hello-world/"/>
+      <url>/2026/06/21/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vscode与git</title>
+      <link href="/2025/12/22/2025-12-22-vscode%E4%B8%8Egit-156150382/"/>
+      <url>/2025/12/22/2025-12-22-vscode%E4%B8%8Egit-156150382/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>本文迁移自 CSDN: <a href="https://blog.csdn.net/2401_83650949/article/details/156150382">vscode与git</a></p></blockquote><p>记录一下在vscode中clone代码与上传到仓库，其中几点小步骤</p><h3 id="推荐观看"><a href="#推荐观看" class="headerlink" title="推荐观看"></a>推荐观看</h3><p>（推荐并不是说最好的，是我个人觉得有用的）</p><h4 id="dy视频："><a href="#dy视频：" class="headerlink" title="dy视频："></a>dy视频：</h4><p>1.<a href="https://www.douyin.com/video/7491109504080219418?count=10&cursor=0&enter_method=like&modeFrom=userLike&previous_page=personal_homepage&secUid=MS4wLjABAAAAxnmZSc5uFvEo48aESvdYjaJR9DQmH6L1G5ttPD2Cua0" title="https:&#x2F;&#x2F;www.douyin.com&#x2F;video&#x2F;7491109504080219418?count&#x3D;10&amp;cursor&#x3D;0&amp;enter_method&#x3D;like&amp;modeFrom&#x3D;userLike&amp;previous_page&#x3D;personal_homepage&amp;secUid&#x3D;MS4wLjABAAAAxnmZSc5uFvEo48aESvdYjaJR9DQmH6L1G5ttPD2Cua0">https://www.douyin.com/video/7491109504080219418?count=10&amp;cursor=0&amp;enter_method&#x3D;like&amp;modeFrom&#x3D;userLike&amp;previous_page&#x3D;personal_homepage&amp;secUid&#x3D;MS4wLjABAAAAxnmZSc5uFvEo48aESvdYjaJR9DQmH6L1G5ttPD2Cua0</a>2.</p><h5 id="https-www-douyin-com-video-7494641436013595915"><a href="#https-www-douyin-com-video-7494641436013595915" class="headerlink" title="https://www.douyin.com/video/7494641436013595915"></a><a href="https://www.douyin.com/video/7494641436013595915" title="https:&#x2F;&#x2F;www.douyin.com&#x2F;video&#x2F;7494641436013595915">https://www.douyin.com/video/7494641436013595915</a></h5><h4 id="csdn相关文章："><a href="#csdn相关文章：" class="headerlink" title="csdn相关文章："></a>csdn相关文章：</h4><p>1.<a href="https://blog.csdn.net/a_lei001/article/details/143277056?spm=1001.2014.3001.5506" title="在vscode拉取GitHub上的项目_vscode下载github上文件-CSDN博客">在vscode拉取GitHub上的项目_vscode下载github上文件-CSDN博客</a></p><p>2.<a href="https://blog.csdn.net/m0_46228204/article/details/125126382?spm=1001.2014.3001.5506" title="vscode与git_vscode和git-CSDN博客">vscode与git_vscode和git-CSDN博客</a></p><h3 id="几点问题："><a href="#几点问题：" class="headerlink" title="几点问题："></a>几点问题：</h3><h4 id="问题1：配置ssh密钥时，怎么都连接不了github，设置用https都不行"><a href="#问题1：配置ssh密钥时，怎么都连接不了github，设置用https都不行" class="headerlink" title="问题1：配置ssh密钥时，怎么都连接不了github，设置用https都不行"></a>问题1：配置ssh密钥时，怎么都连接不了github，设置用https都不行</h4><p>（dy视频1）</p><p>ssh: connect to host github.com port 22: Connection timed out</p><p>解决办法：由于我用的是公司的网，后换成流量就可以了。</p><p>另：终端快捷键CTRL+’,或者直接找terminal–&gt;new terminal<img src="https://i-blog.csdnimg.cn/direct/5656a4efb52f47019fb2c3ef79619d9a.png"></p><p><em>备注：视频2博主的终端界面和我的有区别</em></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># 生成 SSH 密钥</span><br>ssh-keygen -t rsa -C <span class="hljs-string">&quot;你的邮箱地址&quot;</span><br><span class="hljs-comment"># 查看公钥</span><br><span class="hljs-built_in">cat</span> id_rsa.pub<br></code></pre></td></tr></table></figure><h4 id="问题2-在终端输入git-config-–-global-user-name”waner”或者git-config-–-global-user-name”waner”报错"><a href="#问题2-在终端输入git-config-–-global-user-name”waner”或者git-config-–-global-user-name”waner”报错" class="headerlink" title="问题2.在终端输入git config – global user.name”waner”或者git config – global user.name”waner”报错"></a>问题2.在终端输入git config – global user.name”waner”或者git config – global user.name”waner”报错</h4><p>(dy视频2)</p><h4 id=""><a href="#" class="headerlink" title=""></a></h4><p>解决办法：正确输入为git config –global user.name”waner”</p><p>即git configk空格–global空格user.name”名字”</p><p>备注：不确定是否可以用””还是一定不能用，有的博主用有的博主不用。等以后再确认吧</p><h4 id="问题3-按照视频2把用户名和地址配置好了，commit时vscode还是提示确认用户名和地址-无法连接到github"><a href="#问题3-按照视频2把用户名和地址配置好了，commit时vscode还是提示确认用户名和地址-无法连接到github" class="headerlink" title="问题3.按照视频2把用户名和地址配置好了，commit时vscode还是提示确认用户名和地址,无法连接到github"></a>问题3.按照视频2把用户名和地址配置好了，commit时vscode还是提示确认用户名和地址,无法连接到github</h4><p>解决办法：见csdn文章2，把””去掉，换成空格</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs lua">git <span class="hljs-built_in">config</span> <span class="hljs-comment">--global user.name iceylia</span><br>git <span class="hljs-built_in">config</span> <span class="hljs-comment">--global user.enail 92439@af.com</span><br></code></pre></td></tr></table></figure><h4 id="如何clone："><a href="#如何clone：" class="headerlink" title="如何clone："></a>如何clone：</h4><p>有的博主在终端</p><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs crmsh">git <span class="hljs-keyword">clone</span> <span class="hljs-title">https</span>://github.com/用户名/仓库名.git<br></code></pre></td></tr></table></figure><p>即git clone空格SSH</p><p>我比较推荐以下方式<img src="https://i-blog.csdnimg.cn/direct/636f81a6fd1340058eae1d8c2be965b9.png"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> vscode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>keil5 arm和c51兼容</title>
+      <link href="/2025/10/10/2025-10-10-keil5%20arm%E5%92%8Cc51%E5%85%BC%E5%AE%B9-151996714/"/>
+      <url>/2025/10/10/2025-10-10-keil5%20arm%E5%92%8Cc51%E5%85%BC%E5%AE%B9-151996714/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>本文迁移自 CSDN: <a href="https://blog.csdn.net/2401_83650949/article/details/151996714">keil5 arm和c51兼容</a></p></blockquote><p>博主一直使用的都是arm版本，因为学校上单片机需要安装51版本，在arm版本基础上安装51后，发现arm和51都不能用，一顿操作后终于兼容，写下其中几个重要小点</p><p>arm和51共同安装步骤：1.下载安装包，安装arm&#x2F;51版本keil  2.下载注册机(keygen),在keil的license输入id，激活keil</p><p>详细步骤不再赘述，参考任意其他博主教程。以下链接为个人推荐之一：<a href="https://blog.csdn.net/m0_70655689/article/details/144383810" title="https:&#x2F;&#x2F;blog.csdn.net&#x2F;m0_70655689&#x2F;article&#x2F;details&#x2F;144383810">https://blog.csdn.net/m0_70655689&#x2F;article&#x2F;details&#x2F;144383810</a></p><p>下面讲解兼容arm和51时遇到的问题</p><p>1.keil的license失效：</p><p>原因：keil安装路径文件名被更改</p><p>keil所在文件文件名被改过，导致mdk原本安装位置和改后地址不一致</p><p>解决办法：重新安装keil，如果license突然失效，把mdk重新装一下就可以了。保证安装地址文件名不改变。如果需要更改安装地址的文件名，则需要重新安装mdk</p><p>2.license注册id时显示无法注册</p><p>复制CID到注册工具，选择ARM&#x2F;C51，点击Generate生成注册码，将注册码复制到LIC后，系统提示没有没有log in</p><p>原因：<strong>此步骤打开keil时一定以管理员身份打开</strong>（平时不需要以管理员身份打开）</p><p>3.keil的arm和51不兼容</p><p>原因：arm和51没有安装在一个文件目录下</p><p>解决办法：把arm和51各自建一个文件夹，<strong>安装包放在同一个大文件夹下面</strong>，如下图所示。在keygen，把arm和51都各自注册一次到keil的license就可以了</p><p>4.防火墙已经关闭，keygen突然打不开，文件报错有病毒</p><p>解决办法：只关闭windows防火墙不够，需要<strong>关闭实时保护</strong>，具体可抖音搜索</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 开源软件 </tag>
+            
+            <tag> arm开发 </tag>
+            
+            <tag> stm32 </tag>
+            
+            <tag> 51单片机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>missionplanner遇见问题</title>
+      <link href="/2025/07/18/2025-07-18-missionplanner%E9%81%87%E8%A7%81%E9%97%AE%E9%A2%98-149439865/"/>
+      <url>/2025/07/18/2025-07-18-missionplanner%E9%81%87%E8%A7%81%E9%97%AE%E9%A2%98-149439865/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>本文迁移自 CSDN: <a href="https://blog.csdn.net/2401_83650949/article/details/149439865">missionplanner遇见问题</a></p></blockquote><p>地面站软件Missionplanner&#x2F;mp 遥控器mc8b 接收机mc9002  飞控pixhawk2.4.8</p><p>参考b站博主   FYS飞舜极创 翼动航模</p><p>1.MP地面站没有机架选择，并且飞行模式和b站博主界面不一样</p><p>原因：固件刷新错误</p><p>解决：使用b站up提供固件</p><p>2.遥控器连接不到MP地面站，摇动摇杆，地面站没反应（接收机能和遥控器对频）</p><p>原因：接收机和飞控接线错误，飞控RCIN的线连到了接收机pwm 1~8接口之一</p><p>解决：飞控RCIN应该连接接收机mc9002最下面横着的sbus接口</p><p><img src="https://i-blog.csdnimg.cn/direct/ca42359eafeb4ca9bc0014e6e86f80cd.jpg"></p><p><img src="https://i-blog.csdnimg.cn/direct/f1250f1c79f047f69bd8b21aebea40f3.jpg"></p><p>3.地图不加载</p><p>原因：地面站默认谷歌地图</p><p>解决：在飞行模式右侧，把地图切换为必应混合地图</p><p>4.GPS未定位</p><p>原因：GPS没有坏，只是在室内信号不好，必须在户外，并且需要充足的搜星时间</p><p>解决：去户外，等待几分钟直到显示 GPS：2D&#x2F;3D</p><p>残留问题：地面站没有报错仍然不能解锁</p><p>假设原因：可能是罗盘校准不太好，因为有时会报错，（实际罗盘校准也超出200）但最后并没有报错；据有的博主说模式问题和模量问题</p><p>解决办法：暂无，搁置</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 开源软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
